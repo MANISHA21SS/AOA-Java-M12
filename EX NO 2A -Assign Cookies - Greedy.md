@@ -34,7 +34,7 @@ Else, increment j to check the next cookie.
 ## Program:
 ```
 /*
-Program to implement Reverse a String
+
 Developed by: Manisha selvakumari.S.S. 
 Register Number: 212223220055
 */
