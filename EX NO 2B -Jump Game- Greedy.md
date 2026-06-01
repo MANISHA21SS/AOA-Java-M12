@@ -11,15 +11,25 @@ Write a program to find the minimum number of jumps required to reach the last i
 If it is not possible to reach the end, return -1.
 ## Algorithm
 1.If the length of the array n is less than or equal to 1, return 0.
+
 2.Initialize three variables:
+
 jumps = 0, currentEnd = 0, farthest = 0.
+
 3.Traverse the array from index i = 0 to n - 2.
+
 4.For each index i, update farthest as:
+
 farthest = maximum of (farthest, i + arr[i]).
+
 5.If i reaches currentEnd, then:
+
 Increase jumps by 1
+
 Update currentEnd = farthest
+
 6.If currentEnd becomes greater than or equal to n - 1, stop the loop.
+
 7.Return jumps as the minimum number of jumps required.  
 
 ## Program:
