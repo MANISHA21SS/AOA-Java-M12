@@ -35,7 +35,7 @@ Update currentEnd = farthest
 ## Program:
 ```
 /*
-Program to implement Reverse a String
+
 Developed by: Manisha selvakumari.S.S.
 Register Number: 212223220055
 */
