@@ -9,18 +9,26 @@ Each child i has a greed factor g[i], which is the minimum size of a cookie that
 
 ## Algorithm
 1.Start
+
 2.Read the number of children n and input their greed factors into array g.
+
 3.Read the number of cookies m and input their sizes into array s.
+
 4.Sort both arrays g (children’s greed) and s (cookie sizes) in ascending order.
+
 5.Initialize three variables:
 i = 0 → pointer for children
 j = 0 → pointer for cookies
 count = 0 → to count satisfied children
+
 6.While both i < g.length and j < s.length:
 If s[j] >= g[i], assign the cookie to the child: increment both i and j, and increment count.
 Else, increment j to check the next cookie.
+
 7.When the loop ends, count holds the maximum number of satisfied children.
+
 8.Print the value of count.
+
 9.End
 
 ## Program:
